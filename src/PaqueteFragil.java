@@ -19,7 +19,7 @@ public class PaqueteFragil extends Paquete {
 
         double costoPaquete = super.calcularCosto();
         double embalaje = 15;
-        double seguro = valorDeclarado * 0.3;
+        double seguro = valorDeclarado * 0.03;
 
         return costoPaquete + embalaje + seguro;
 
